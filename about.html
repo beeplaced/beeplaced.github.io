@@ -1,13 +1,14 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>15Carsten Duennermann - my portfolio</title>
+		<title>16Carsten Duennermann - my portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="icon" href="data:,">
 		<link rel="shortcut icon" href='./shortcut.svg' type="image/svg" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/resume.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -48,8 +49,7 @@
 
 									<script>
 										function downloadPDF() {
-											window.html2canvas = html2canvas;
-											const { jsPDF } = window.jspdf
+												const { jsPDF } = window.jspdf
 											const contentElement = document.querySelector('.resume');
 											const pdf = new jsPDF();
 
