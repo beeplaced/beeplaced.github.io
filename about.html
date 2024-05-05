@@ -1,13 +1,14 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>9Carsten Duennermann - my portfolio</title>
+		<title>10Carsten Duennermann - my portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="icon" href="data:,">
 		<link rel="shortcut icon" href='./shortcut.svg' type="image/svg" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/resume.css" />
+		<script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -44,6 +45,15 @@
 							<header>
 								<h2>About me - a CV Extrat
 								<button onclick="downloadPDF()">Download as PDF</button>
+
+									<script>
+										function downloadPDF() {
+											const { jsPDF } = window.jsPDF
+											const contentElement = document.querySelector('.resume');
+											console.log(contentElement)
+										}
+									</script>
+
                                 </header>
 						<div class="resume">
 						<div class="resume-text">
@@ -207,7 +217,5 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-<script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
-			<script src="assets/js/download.js"></script>
 	</body>
 </html>
