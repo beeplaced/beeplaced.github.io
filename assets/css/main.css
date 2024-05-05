@@ -2844,6 +2844,7 @@ input, select, textarea {
 			text-transform: uppercase;
 			display: inline-block;
 			color: black;
+			font-size: 120%;
 		}
 
 			#header .logo > * {
