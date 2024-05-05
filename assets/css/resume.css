@@ -13,7 +13,7 @@
 }
 
 .resume-sidebar section{
-    line-height: 1.2em;
+    line-height: 1.5em;
     font-size: 85%;
     margin: 0 0 15px 0;
     color: #a6a6a6;
@@ -29,7 +29,7 @@
 .image_cv{
     display: flex;
     justify-content: center;
-    padding: 5px;
+    padding: 10px 0 0 0;
 }
 
 .contact_cv{
@@ -40,6 +40,7 @@
     display: flex;
     align-items: center;
     font-size: 12px;
+    color: ghostwhite;
 }
 
 .contact_cv > li > img{
@@ -62,7 +63,8 @@ font-size: 20px;
 
 .sidebar-title{
     color: white;
-    margin: 5px 0;
+    margin: 0 0 2px 0;
+    font-size: 120%;
 }
 
 .sidebar-small{
