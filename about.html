@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>12Carsten Duennermann - my portfolio</title>
+		<title>13Carsten Duennermann - my portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="icon" href="data:,">
@@ -51,7 +51,16 @@
 											console.dir(window)
 											const { jsPDF } = window.jspdf
 											const contentElement = document.querySelector('.resume');
-											console.log(contentElement)
+											const pdf = new jsPDF();
+
+											// Generate PDF from content
+											pdf.html(contentElement, {
+												callback: function (pdf) {
+													pdf.save('download.pdf'); // Save PDF as 'download.pdf'
+												},
+												x: 10,
+												y: 10
+											});
 										}
 									</script>
 
