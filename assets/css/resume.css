@@ -13,6 +13,18 @@
 }
 
 .resume-sidebar{
-    width: 300px;
+    width: 250px;
     background-color: rgb(87, 87, 87);
+    color: mintcream;
+    padding: 5px 10px;
+}
+
+.r-h1-green{
+color: #029a83;
+font-weight: bold;
+}
+
+.r-h1-dark{
+color: #575757;
+font-weight: bold;
 }
