@@ -1,15 +1,13 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>1Carsten Duennermann - my portfolio</title>
+		<title>2Carsten Duennermann - my portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="icon" href="data:,">
 		<link rel="shortcut icon" href='./shortcut.svg' type="image/svg" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/resume.css" />
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
-		<script type="module" src="assets/js/download.js"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -45,7 +43,21 @@
 						<div class="inner">
 							<header>
 								<h2>About me - a CV Extrat
-								<button onclick="downloadPDF()">Download as PDF</button>
+											<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+								    <button onclick="generatePDF()">Generate PDF</button>
+
+    <script>
+    function generatePDF() {
+        // Create a new jsPDF instance
+        const doc = new jsPDF();
+
+        // Add content to the PDF
+        doc.text("Hello World!", 10, 10);
+
+        // Save the PDF
+        doc.save("example.pdf");
+    }
+    </script>
                                 </header>
 						<div class="resume">
 						<div class="resume-text">
@@ -209,6 +221,5 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
