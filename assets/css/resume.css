@@ -29,6 +29,11 @@
     list-style: none;
 }
 
+.contact_cv > li{
+    display: flex;
+    align-items: center;
+}
+
 .resume-sidebar{
     width: -webkit-fill-available;
     background-color: rgb(87, 87, 87);
