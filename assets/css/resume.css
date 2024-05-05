@@ -32,6 +32,11 @@
 .contact_cv > li{
     display: flex;
     align-items: center;
+}rgb(22, 124, 181)
+
+.contact_cv > li > img{
+    width: 30px;
+    margin: 5px;
 }
 
 .resume-sidebar{
