@@ -12,6 +12,11 @@
     border-bottom: 10px solid white;
 }
 
+.resume-sidebar section{
+    line-height: 1.2em;
+    font-size: 85%;
+}
+
 .resume-text{
     width: -webkit-fill-available;
     background-color: ghostwhite;
