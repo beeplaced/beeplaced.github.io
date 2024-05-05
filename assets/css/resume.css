@@ -1,52 +1,60 @@
+body{
+    color: #585858;
+ font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 .resume{
     width: -webkit-fill-available;
-    background-color: aquamarine;
-    min-height: 300px;
     display: grid;
-    grid-template-columns: 1fr 260px;
-        max-height: 1169px;
+    height: 100%;
+    grid-template-columns: 1fr 250px;
+    max-height: 1169px;
     overflow: auto;
 }
 
 .cv-frame {
             width: 100%; /* Make the iframe width 100% of its container */
-            height: 1169px;
+            height: 1400px;
             border: none; /* Remove iframe border */
             background: transparent; /* Set iframe background to transparent */
         }
 
-                .a4-paper {
-            width: 827px; /* Width of A4 page (8.27 inches) at 100 DPI */
-            height: 1169px; /* Height of A4 page (11.69 inches) at 100 DPI */
-            border: 1px solid black; /* Optional border for visualization */
-            box-sizing: border-box; /* Include border in width/height calculation */
-            background-color: white; /* Optional background color */
-        }
-
 .resume-text section{
-    line-height: 1.5em;
-    margin: 0 0 10px 0;
+line-height: 1.3em;
+    font-size: 90%;
+    margin: 5px 0 5px 0;
     border-bottom: 5px solid white;
 }
 
 .resume-sidebar section{
     line-height: 1.4em;
-    font-size: 85%;
-    margin: 0 0 5px 0;
+    font-size: 70%;
+    margin: 0;
     color: #a6a6a6;
 }
 
 .resume-text{
     width: -webkit-fill-available;
-    background-color: ghostwhite;
     padding: 20px 10px 10px 30px;
     list-style: none;
+        font-size: 90%;
 }
 
 .image_cv{
     display: flex;
     justify-content: center;
     padding: 5px 0 0 0;
+}
+
+.image_cv img{
+    width: 150px;
 }
 
 .contact_cv{
@@ -57,16 +65,17 @@
     display: flex;
     align-items: center;
     font-size: 12px;
-    color: ghostwhite;
+    color: white;
 }
 
 .contact_cv > li > img{
-    width: 25px;
-    margin: 3px 10px 3px 0;
+    width: 20px;
+    margin: 2px 10px 2px 0;
 }
 
 .resume-sidebar {
-    width: -webkit-fill-available;
+    width: 250px;
+    min-height: max-content;
     background-color: rgb(87, 87, 87);
     color: mintcream;
     padding: 5px 5px 0 10px;
@@ -75,18 +84,24 @@
 
 .sidebar-head{
     color: #a6a6a6;
-font-size: 20px;
+margin: 10px 0;
 }
 
 .sidebar-title{
-    color: white;
-    margin: 0 0 2px 0;
-    font-size: 120%;
+    color: ghostwhite;
+    margin: 0;
+    font-size: 110%;
 }
 
 .sidebar-small{
     font-size: 12px;
     color: navajowhite;
+}
+
+.r-h1-small{
+    color: #a6a6a6;
+    font-size: 70%;
+    font-weight: bold;
 }
 
 .sidebar-highlight{
@@ -114,6 +129,7 @@ font-weight: bold;
 
 .r-h1-title{
 color: #a6a6a6;
+font-weight: bold;
 }
 
 .t-time{
