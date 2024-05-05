@@ -19,9 +19,13 @@
     list-style: none;
 }
 
-section .image{
+.image_cv{
     display: flex;
     justify-content: center;
+}
+
+.contact_cv{
+    list-style: none;
 }
 
 .resume-sidebar{
