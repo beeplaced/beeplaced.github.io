@@ -9,7 +9,7 @@
 .resume-text section{
     line-height: 1.5em;
     margin: 0 0 10px 0;
-    border: 1px dashed black;
+    border-bottom: 10px solid white;
 }
 
 .resume-text{
