@@ -22,6 +22,7 @@
 .image_cv{
     display: flex;
     justify-content: center;
+    padding: 5px;
 }
 
 .contact_cv{
