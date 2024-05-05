@@ -2,4 +2,17 @@
     width: -webkit-fill-available;
     background-color: aquamarine;
     min-height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+}
+
+.resume-text{
+    width: -webkit-fill-available;
+    background-color: ghostwhite;
+    min-height: 300px;
+}
+
+.resume-sidebar{
+    width: 300px;
+    background-color: rgb(87, 87, 87);
 }
