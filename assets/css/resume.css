@@ -32,11 +32,12 @@
 .contact_cv > li{
     display: flex;
     align-items: center;
+    font-size: 12px;
 }
 
 .contact_cv > li > img{
     width: 30px;
-    margin: 5px;
+    margin: 3px 10px 3px 3px;
 }
 
 .resume-sidebar{
