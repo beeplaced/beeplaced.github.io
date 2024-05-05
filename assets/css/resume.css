@@ -6,14 +6,15 @@
     grid-template-columns: 1fr 260px;
 }
 
-.resume-text ul {
-    list-style: none; /* Remove default list style (bullets) */
+.resume-text section{
+    border: 5px solid red;
 }
 
 .resume-text{
     width: -webkit-fill-available;
     background-color: ghostwhite;
     padding: 20px 10px 10px 40px;
+    list-style: none;
 }
 
 .resume-sidebar{
@@ -26,6 +27,15 @@
 .r-h1-green{
 color: #029a83;
 font-weight: bold;
+}
+
+.r-h1-head{
+color: #029a83;
+font-weight: bold;
+}
+
+.r-h1-title{
+color: #a6a6a6;
 }
 
 .r-h1-dark{
