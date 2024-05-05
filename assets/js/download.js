@@ -1,4 +1,4 @@
-import { jsPDF } from "jspdf";
+const { jsPDF } = require("jspdf"); // will automatically load the node version
 
 function downloadPDF() {
     const contentElement = document.querySelector('.resume');
