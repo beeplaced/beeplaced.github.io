@@ -62,6 +62,10 @@ font-size: 20px;
     color: navajowhite;
 }
 
+.sidebar-highlight{
+color: #3399ff
+}
+
 .amount{
     background-color: #167CB5;
     display: block;
