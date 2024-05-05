@@ -1,6 +1,7 @@
+import { jsPDF } from "jspdf";
+
 function downloadPDF() {
     const contentElement = document.querySelector('.resume');
-    const { jsPDF } = window.jsPDF
     const pdf = new jsPDF();
 
     // Generate PDF from content

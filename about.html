@@ -208,18 +208,6 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
-			<script >function downloadPDF() {
-    const contentElement = document.querySelector('.resume');
-    const pdf = new jsPDF();
-
-    // Generate PDF from content
-    pdf.html(contentElement, {
-        callback: function (pdf) {
-            pdf.save('download.pdf'); // Save PDF as 'download.pdf'
-        },
-        x: 10,
-        y: 10
-    });
-}</script>
+			<script src="assets/js/download.js"></script>
 	</body>
 </html>
