@@ -15,6 +15,8 @@
 .resume-sidebar section{
     line-height: 1.2em;
     font-size: 85%;
+    margin: 0 0 15px 0;
+    color: #a6a6a6;
 }
 
 .resume-text{
@@ -42,7 +44,7 @@
 
 .contact_cv > li > img{
     width: 30px;
-    margin: 3px 10px 3px 3px;
+    margin: 3px 10px 3px 0;
 }
 
 .resume-sidebar{
@@ -60,6 +62,7 @@ font-size: 20px;
 
 .sidebar-title{
     color: white;
+    margin: 5px 0;
 }
 
 .sidebar-small{
@@ -68,7 +71,8 @@ font-size: 20px;
 }
 
 .sidebar-highlight{
-color: #3399ff
+color: #3399ff;
+font-weight: bold;
 }
 
 .amount{
