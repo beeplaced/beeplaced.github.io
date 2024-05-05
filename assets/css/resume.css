@@ -22,10 +22,10 @@ body{
 
 .cv-frame {
             width: 100%; /* Make the iframe width 100% of its container */
-            height: 100vh;
+            height: 120vh;
             border: none; /* Remove iframe border */
             background: transparent; /* Set iframe background to transparent */
-                    border: 1px dotted black;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 8px;
         }
 
