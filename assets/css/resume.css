@@ -93,12 +93,20 @@ margin: 10px 0;
 .sidebar-title{
     color: ghostwhite;
     margin: 0;
-    font-size: 110%;
 }
 
 .sidebar-small{
     font-size: 11px;
     color: #a6a6a6;
+}
+
+.assessment .sidebar-small-assessment{
+    color: #a6a6a6;
+    line-height: 1;
+}
+
+.assessment .amount{
+    margin: 0px 0 10px -2px
 }
 
 .r-h1-small{
