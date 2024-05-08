@@ -22,7 +22,7 @@ body{
 
 .cv-frame {
             width: 100%; /* Make the iframe width 100% of its container */
-            height: 120vh;
+            height: 130vh;
             border: none; /* Remove iframe border */
             background: transparent; /* Set iframe background to transparent */
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -32,14 +32,14 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 .resume-text section{
 line-height: 1.3em;
     font-size: 90%;
-    margin: 5px 0 5px 0;
+    margin: 7px 0;
     border-bottom: 5px solid white;
 }
 
 .resume-sidebar section{
     line-height: 1.5em;
     font-size: 75%;
-    margin: 0;
+    margin: 5px 0;
     color: #a6a6a6;
 }
 
@@ -106,7 +106,7 @@ margin: 10px 0;
 }
 
 .assessment .amount{
-    margin: 0px 0 10px -2px
+    margin: 0px 0 5px -2px
 }
 
 .r-h1-small{
@@ -116,7 +116,7 @@ margin: 10px 0;
 }
 
 .sidebar-highlight{
-color: #3399ff;
+color: #167CB5;
 font-weight: bold;
 }
 
@@ -129,8 +129,10 @@ font-weight: bold;
 }
 
 .r-h1-green{
-color: #029a83;
-font-weight: bold;
+    color: #029a83;
+    font-weight: bold;
+    font-size: 95%;
+    margin: 5px 0;
 }
 
 .r-h1-head{
@@ -140,15 +142,21 @@ font-weight: bold;
 
 .r-h1-title{
 color: #a6a6a6;
-font-weight: bold;
+font-size: 120%;
 }
 
 .t-time{
     color: #a6a6a6;
-    font-size: 70%;
+    font-size: 75%;
+    font-weight: 100;
 }
 
 .r-h1-dark{
 color: #575757;
 font-weight: bold;
+}
+
+.r-h1-dark-normal{
+color: #575757;
+font-weight: 100;
 }
